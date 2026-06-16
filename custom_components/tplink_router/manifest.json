@@ -1,11 +1,15 @@
 {
-    "domain": "tplink_router",
-    "name": "TP-Link Router",
-    "codeowners": ["@AlexandrErohin"],
-    "config_flow": true,
-    "documentation": "https://github.com/AlexandrErohin/home-assistant-tplink-router",
-    "iot_class": "local_polling",
-    "issue_tracker": "https://github.com/AlexandrErohin/home-assistant-tplink-router/issues",
-    "requirements": ["tplinkrouterc6u==5.23.0"],
-    "version": "2.28.0"
-  }
+  "domain": "tplink_router",
+  "name": "TP-Link Router",
+  "codeowners": [
+    "@rz467fzs7d"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/rz467fzs7d/home-assistant-tplink-router",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/rz467fzs7d/home-assistant-tplink-router/issues",
+  "requirements": [
+    "tplinkrouterc6u@git+https://github.com/rz467fzs7d/TP-Link-Archer-C6U.git@codex/tplink-r-ac-resilience"
+  ],
+  "version": "2.28.1-ac.1"
+}
